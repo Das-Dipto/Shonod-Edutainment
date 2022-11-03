@@ -1,1 +1,0 @@
-This project deals with frontend layout of a edtech platform.
