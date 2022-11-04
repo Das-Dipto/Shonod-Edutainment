@@ -404,3 +404,129 @@ nav  main  ul  li:nth-child(3):hover .innermenu{
 .top{
     top:-22rem;
 }
+
+
+.section-2{
+    grid-area: section_2;
+    width: 100%;
+    margin-top: 6rem;
+}
+
+.section2-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2-heading h1{
+    font-size: 3rem;
+}
+
+.section2-heading h1 span{
+    color:#ED563B;
+}
+
+.section2-heading .icon{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    color:cadetblue;
+}
+
+.section2-heading p{
+    text-align: center;
+    line-height: 2;
+    color:black;
+    font-weight: 600;
+    width: 70%;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.section2-content{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.section2-content .label{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.sub1, .sub2, .sub3, .sub4{
+    padding: 1rem 3rem;
+    background-color: #F0F6F8;
+    box-shadow: 0 0 18px 4px rgb(231, 231, 231);
+    transition: all 0.5s;
+}
+
+.section2-content .label h4:nth-child(1){
+    border-radius: 15px 0px 0px 15px;
+}
+
+.section2-content .label h4:nth-child(4){
+    border-radius: 0px 15px 15px 0px;
+}
+
+.section2-content .label .bg{
+    background-color: #ff00c4 ;
+    color:white;
+}
+
+.label h4:hover{
+    background-color: #ff00c4;
+    color:white;
+} 
+
+.per{
+    background-color:  #ff00c4;
+    color:white;
+}
+
+.ssc-content, .hsc-content, .profCR-content, .examPrep-content{
+    width: 80%;
+    margin: 0 auto;
+    display: none;
+}
+
+.vis{
+    display: block;
+}
+
+ .show-content{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ssc-content, .hsc-content, .profCR-content, .examPrep-content, .show-content h1{
+    text-align: center;
+}
+
+.category_card, .show-content .category_card{
+    margin-top: 2.5rem;
+    display: flex;
+    flex-flow: row wrap;
+    gap:2rem;
+    justify-content: space-between;
+}
+
+.cnt, .show-content .cnt{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    font-size: 1.2rem;
+    gap:1rem;
+    width: 30%;
+    object-fit: contain;
+    padding: 1rem;
+    box-shadow: 0 0 18px 4px rgb(231, 231, 231);
+    border-radius: 8px;
+    position: relative;
+    transform:scale(1);
+    transition: all 0.5s;
+}
+
+.cnt:hover, .show-content .cnt:hover{
+    transform: scale(1.1);
+}

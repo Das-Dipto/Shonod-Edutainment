@@ -7,3 +7,7 @@ window.addEventListener('scroll', ()=>{
             navbar.classList.add('bgcolor');
         }
 });
+
+let sscContent = document.querySelector('.ssc-content');
+let showcontent = document.querySelector('.show-content');
+showcontent.innerHTML = sscContent.innerHTML;
