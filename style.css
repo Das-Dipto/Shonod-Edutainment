@@ -530,3 +530,55 @@ nav  main  ul  li:nth-child(3):hover .innermenu{
 .cnt:hover, .show-content .cnt:hover{
     transform: scale(1.1);
 }
+
+.section-3{
+    grid-area: section_3;
+    width: 95%;  
+    margin:0 auto;
+    margin-top: 4rem;
+}
+
+.sec3_wrapper{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+}
+
+.sec3_wrapper img{
+    width: 55%;
+}
+
+.section-3_content{
+    padding:2rem;
+    width: 45%;
+    background-color:rgb(9, 9, 110);
+}
+
+.section-3_content h1{
+    color:honeydew;
+}
+
+.section-3_content p{
+    line-height: 1.5;
+    margin:1.6rem 0;
+    font-size: 1.2rem;
+    text-align: justify;
+    color:white;
+}
+
+.section-3_content button{
+    margin-top: 1rem;
+    padding: 0.7rem 1rem ;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: transparent;
+    outline:none;
+    border:1px solid white;
+    color:white;
+    border-radius: 20px;
+}
+
+.section-3_content button:hover{
+    background-color: white;
+    color:black;
+}
