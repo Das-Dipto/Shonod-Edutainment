@@ -663,3 +663,61 @@ nav  main  ul  li:nth-child(3):hover .innermenu{
 .price h4:nth-child(2){
     font-size: 1.6rem;
 }
+
+
+.section-5{
+    grid-area: section_5;
+    width: 95%;  
+    margin:0 auto;
+    margin-top: 4rem;
+}
+
+.sec5_wrapper{
+    display: flex;
+    flex-flow:row wrap-reverse;
+    justify-content: space-between;
+}
+
+.sec5_wrapper img{
+    width: 55%;
+}
+
+.section-5_content{
+    padding:3rem 2rem;
+    width: 45%;
+    background-color:teal;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.section-5_content h1{
+    color:honeydew;
+    font-size: 1.7rem;
+}
+
+.section-5_content p{
+    line-height: 1.5;
+    margin:2rem 0;
+    font-size: 1.2rem;
+    text-align: justify;
+    color:white;
+}
+
+.section-5_content button{
+    margin-top: 1rem;
+    padding: 0.7rem 1rem ;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: transparent;
+    outline:none;
+    border:1px solid white;
+    color:white;
+    border-radius: 20px;
+    width: 30%;
+}
+
+.section-5_content button:hover{
+    background-color: white;
+    color:black;
+}
