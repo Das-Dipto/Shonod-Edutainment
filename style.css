@@ -722,4 +722,124 @@ nav  main  ul  li:nth-child(3):hover .innermenu{
     color:black;
 }
 
+.section-6{
+    grid-area: section_6;
+}
+
+.flex-container-team{
+    display: flex;
+    flex-flow: row wrap-reverse;
+    padding:3rem 0rem;
+    justify-content: center;
+    gap:3rem;
+}
+
+.aside{
+    padding: 15rem 2rem;
+    width:30%;
+    background-color: deepskyblue;
+    border-radius:25px;
+}
+
+.aside h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top:1rem;
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    color:white;
+}
+
+.aside p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.50;
+    margin-bottom: 4rem;
+    font-size: 1.3rem;
+    color:whitesmoke;
+}
+
+.aside a:link{
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color:white;
+    border-radius:15px;
+    border:2px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.aside a:visited{
+    color:white;
+}
+
+.aside a:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.aside a:active{
+    padding: 1.5rem 3rem;
+    background-color: black;
+    color: white;
+    border-radius:15px;
+}
+
+.main{
+    display: flex;
+    flex-flow: row wrap;
+    width: 60%;
+    gap:3rem;
+}
+
+.member{
+    padding:2rem;
+    background-color:#fff;
+    object-fit: contain;
+    width: 45%;
+    border-radius: 25px;
+    box-shadow: 0 0 18px 4px rgb(231, 231, 231);
+}
+
+.member img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.member h4{
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem 0;
+}
+
+.member h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:deepskyblue;
+}
+
+.member h5{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.member p{
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    width:85%;
+    line-height: 1.5;
+    margin: 1rem 0;
+    margin-bottom: 1.5rem;
+}
+
+.member i{ 
+    color:aqua;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
 
