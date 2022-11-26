@@ -1002,4 +1002,148 @@ nav  main  ul  li:nth-child(3):hover .innermenu{
     font-size: 1.9rem;
 }
 
+.section-9{
+    width: 100%;
+    background-color:#E5E5E5;
+    padding:4rem 0rem;
+    grid-area: section_9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:8rem;
+    margin-top: 4rem;
+}
 
+.one{
+    margin-bottom:4rem;
+}
+
+.first_item h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+}
+
+.first_item h1{
+    font-size: 2.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:1rem 0rem;
+}
+
+.first_item h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.50;
+}
+
+.two div{
+    margin: 1.5rem 0rem;
+}
+
+.two div i{
+    padding:0.5rem;
+    background-color:#ED563B;
+    color:#fff;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.two div .fa-facebook-f{
+    padding:0.5rem 0.7rem;
+}
+
+ .form{
+    padding:4rem 3rem;
+    background-color: #fff;
+    border-radius:20px;
+}
+
+.form h1{
+    margin-bottom: 1rem;
+}
+
+ .form input {
+     border:none;
+     border-bottom: 2px solid black;
+     background-color: transparent;
+     padding: 16px 280px 16px 20px;
+     margin-bottom:15px;
+     font-size: 16px;
+     color:black;
+     font-weight:520;
+     font-family:Arial, Helvetica, sans-serif;
+     margin-bottom: 2rem;
+}
+
+ .form input:last-child {
+    margin-bottom: 0;
+}
+
+  .form textarea{
+     border:none;
+     border-bottom: 2px solid black;
+     background-color: transparent;
+     min-height: 140px;  
+     padding-top: 16px;
+     padding-left:20px;
+     padding-right:300px;
+     font-size: 16px;
+     font-weight:520;
+     font-family:Arial, Helvetica, sans-serif;
+     color:black;
+     resize: none;
+} 
+
+.form div.button {
+    background-color: transparent;
+    border:2px solid black;
+    margin-left:0px;
+    width: fit-content;
+    padding: 16px 60px;
+    font-size:0.8rem;
+    margin-top:2.5rem;
+}
+
+.form div.button:hover{
+    background-color: black;
+}
+
+.form div.button a:link{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.form div.button a:visited{
+    color:black;
+}
+
+.form div.button:hover a{
+    color: white;
+}
+
+.offer{
+    margin-bottom: 4rem;
+}
+
+.offer ul{
+    list-style-type: disc;
+    margin-left: 1rem;
+}
+
+.first_item ul  a:link, .first_item a:visited{
+    color:black;
+    line-height: 1.5;
+}
+
+.first_item  ul  a:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+.first_item  ul  a:active{
+    color:black;
+}
